@@ -1,0 +1,38 @@
+<html>
+<style type="text/css">
+	.content {
+		width: 80px;
+		height: 200px;
+		border: 2px solid red;
+	}
+	
+	.content ul {
+		width: 180px;
+		border: 2px solid blue;
+		height: 200px;
+		padding: 0;
+	}
+	
+	.content ul>li {
+		width: inherit;
+		border: 2px solid greenyellow;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin: 10px;
+		position: absolute;
+	}
+	
+	#drag {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		background-color: red;
+	}
+</style>
+
+</head>
+
+<body>
+	<div id="drag"></div>
+	<script src='1.js'></script>
+</body>
