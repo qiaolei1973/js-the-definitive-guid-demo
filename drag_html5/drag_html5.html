@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .content {
+            width: 200px;
+            height: 200px;
+            border: 2px solid #000;
+            position: relative;
+        }
+        .content p{
+           position: absolute;
+           padding:0;
+           margin: -5px -35px;
+           top:50%;
+           left: 50%;
+            /**transform: translate(50%,50%);*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content" id='content'></div>
+    <p draggable="true" id='item'>drag me!</p>
+    <script src='./drag.js'></script>
+</body>
+</html>
